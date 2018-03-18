@@ -5,8 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .a {
+            background: linear-gradient(to bottom right, rgb(255, 187, 0), rgb(253, 173, 0));
+            margin-top: 0;
+            padding: 100px 20px; /* Added a percentage value for top/bottom padding to keep the wrapper inside of the parent */
+
+            -webkit-transform: skewY(-5deg);
+            -moz-transform: skewY(-5deg);
+            -ms-transform: skewY(-5deg);
+            -o-transform: skewY(-5deg);
+            transform: skewY(-5deg);
+        }
+        .a .wrapper {
+            -webkit-transform: skewY(5deg);
+            -moz-transform: skewY(5deg);
+            -ms-transform: skewY(5deg);
+            -o-transform: skewY(5deg);
+            transform: skewY(5deg);
+        }
+    </style>
 </head>
 <body>
-    Setting up.
+    <div class="a"><div class="wrapper"><h1>Hello</h1></div></div>
 </body>
 </html>
