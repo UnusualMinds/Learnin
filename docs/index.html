@@ -9,28 +9,28 @@
         * {
             padding: 0;
             margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
         }
         .a {
             background: linear-gradient(to bottom right, rgb(255, 187, 0), rgb(253, 173, 0));
-            margin-top: -10px;
-            padding: 100px 20px; /* Added a percentage value for top/bottom padding to keep the wrapper inside of the parent */
-
-            -webkit-transform: skewY(-5deg);
-            -moz-transform: skewY(-5deg);
-            -ms-transform: skewY(-5deg);
-            -o-transform: skewY(-5deg);
+            margin-top: -100px;
+            padding: 0 50px; /* Added a percentage value for top/bottom padding to keep the wrapper inside of the parent */
+            height: 500px;
             transform: skewY(-5deg);
         }
         .a .wrapper {
-            -webkit-transform: skewY(5deg);
-            -moz-transform: skewY(5deg);
-            -ms-transform: skewY(5deg);
-            -o-transform: skewY(5deg);
+            color: white;
+            padding-top: 130px;
             transform: skewY(5deg);
         }
     </style>
 </head>
 <body>
-    <div class="a"><div class="wrapper"><h1>Hello</h1></div></div>
+    <div class="a">
+        <div class="wrapper">
+            <h1>Learnin</h1>
+            <h4>Learnin but fun.</h4>
+        </div>
+    </div>
 </body>
 </html>

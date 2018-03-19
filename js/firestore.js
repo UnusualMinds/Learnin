@@ -5,4 +5,4 @@ var config = {
     databaseURL: "https://learnin-aaf06.firebaseio.com",
     projectId: "learnin-aaf06",
 };
-firebase.initializeApp(config);
+var app=firebase.initializeApp(config);
